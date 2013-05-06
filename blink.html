@@ -1,0 +1,89 @@
+
+<html>
+<head>
+<!--
+This file retrieved from the JS-Examples archives
+http://www.js-examples.com
+1000s of free ready to use scripts, tutorials, forums.
+Author: Barsan - http://javascript.vbarsan.com/ 
+-->
+<style type=text/css>
+A { text-decoration:none;}
+A:link { COLOR: blue }
+A:visited { COLOR: blue }
+A:hover { COLOR: red;background-color:#66ffff;}
+ .tabc { font-weight:bold; font-size:12px; text-align:center; font-family:Arial,Helvetica; color:navy;}
+ .tabbc { font-weight:bold; font-size:12px; text-align:center; font-family:Arial,Helvetica;}
+</style>
+
+<!-- STEP II: Goes between <HEAD> & </HEAD> tags-->
+<script language="JavaScript">
+
+/***********************************
+*   http://javascripts.vbarsan.com/
+*   This notice may not be removed 
+***********************************/
+
+// begin: Parameters of the Blinker follow: -->
+//width of the Blinker in pixels: set to your own;
+var mswidth=300;
+
+//height of the Blinker in pixels: set to your own;
+var msheight=130;
+
+//message pause: message in sight!
+var mspause=1000 //1000=1s
+
+//blinks speed: message out of sight!
+var msspeed=200 // 1000=1s
+
+//blinks per message: set to your own - value from 1 up;
+var msblinks=3 //if only one message: value 0 (indefinitely).
+
+//BACKGROUND: either color(1) or image(2) ;
+//1.Background color: could be like: "aqua";
+//set it "" for no background color;
+var sbcolor="#ffffcc";
+
+//or 2.Background image: "imagename.ext";
+//leave it "" for no image background;
+var sbground="";
+
+//border for blinking area: 1, ... ;
+//set it 0(zero) for no border;
+var sborder=3; 
+// <-- end Parameters 
+
+// begin: Blinker's Messages -->
+var singlemessage=new Array();
+
+//Messages --> as many as you'd like: set to your own;
+//A <DIV class=... ...> and </DIV> pair is recommended for each 
+//row of a message for alignment and/or Size, Color, ... control.
+//Inside any message you MUST use \' in lieu of ';
+
+singlemessage[0]='<img src="1.png" />';
+singlemessage[1]='<img src="dh.gif" />';
+singlemessage[2]='<img src="sbi.jpg" />';
+//    ...
+//singlemessage[...]='...'
+// <-- end Messages 
+
+// begin: Blinker's Algorithm -->
+var kkk=0;var timer1 = null;var timer2 = null;if(singlemessage.length==1) msblinks=0;var resumesmsb=msblinks;iki=0;function dmmg11(){dmdiv.innerHTML=singlemessage[iki];timer1=setTimeout("dmmg12(dmdiv.style.top=msheight)",mspause);if(singlemessage.length>1&&msblinks>0) msblinks--;return;}function dmmg12(){timer2=setTimeout("dmmg11(dmdiv.style.top=0)",msspeed);if(singlemessage.length>1&&msblinks==0){msblinks=resumesmsb;if(iki==singlemessage.length-1) iki=0;else iki++;}return;}function ns4mg11(){ns4blinkdiv.document.write(singlemessage[iki]);ns4blinkdiv.document.close();timer1=setTimeout("ns4mg12(ns4blinkdiv.top=msheight)",mspause);if(singlemessage.length>1&&msblinks>0) msblinks--;return;}function ns4mg12(){timer2=setTimeout("ns4mg11(ns4blinkdiv.top=0)",msspeed);if(singlemessage.length>1&&msblinks==0){msblinks=resumesmsb;if(iki==singlemessage.length-1) iki=0;else iki++;}return;}function startb(){if(document.getElementById){dmdiv=document.getElementById('blinkingdiv');dmmg11(dmdiv);}else if(document.all){dmdiv=blinkingdiv;dmmg11();}else if(document.layers){ns4blinkdiv=document.ns4blinkb0.document.ns4blinkb1;ns4blinkdiv.visibility='show';ns4mg11();}}
+// <-- end Algorithm 
+</script>
+
+</head>
+<body onLoad="startb()">
+<script language="JavaScript">document.write('<table align="center" CELLSPACING="0" CELLPADDING="0" background='+sbground+'><tr><td width='+mswidth+'>');if(document.all||document.getElementById){document.writeln('<div style="position:relative;overflow:hidden;width:'+mswidth+';height:'+msheight+';clip:rect(0 '+mswidth+' '+msheight+' 0);" onMouseover="if (timer1!=null){ clearTimeout(timer1);dmdiv.style.top=0; kkk=1;} if (timer2!=null) {kkk=1; clearTimeout(timer2);}" onMouseout="if (kkk==1) { kkk=0; timer2=setTimeout(\'dmmg11(dmdiv.style.top=0)\',msspeed);}"><div id="blinkingdiv" style="position:relative;width:'+mswidth+';height:'+msheight+';"></div></div>');}</script><ilayer id="ns4blinkb0" width=&{mswidth}; height=&{msheight};><layer id="ns4blinkb1" width=&{mswidth}; height=&{msheight}; onMouseover='if (timer1!=null){ clearTimeout(timer1); ns4blinkdiv.top=0; kkk=1;} if (timer2!=null){ kkk=1; clearTimeout(timer2); }' onMouseout='if (kkk==1) {kkk=0; timer2=setTimeout("ns4mg11(ns4blinkdiv.top=0)",msspeed);}'></layer></ilayer></td></tr></table>
+
+
+<!-My countdown widget - HTML code - mycountdown.org --><!-end of code-->
+
+
+
+
+
+</body>
+</html>

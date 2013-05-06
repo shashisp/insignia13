@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bm{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#fin{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#hr{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mark{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#bill{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#jobs{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#buffett{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#incorp{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}

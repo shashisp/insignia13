@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+#csppt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#csepuzzle{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#csedesignevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#civilppts{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#civilarchitex{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#civilpliris{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#civilwalk{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#civilmindtrap{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#chemppt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemreaction{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemposter{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemquiz{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemidpevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemtroubleevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#chemmodelevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#encppt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#enctroubleshoot{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#encbrainstorm{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#encquizevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#encantennaevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#encrobotevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#enetrouble{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechppt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechjunkevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechover{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechquizevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechnightevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#mechesdevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#info_scippt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#iseembedevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#isecodeevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#isequizevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#eneppt{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#csnightout{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#csautomata{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#ladders{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#bizmun{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#bizexp{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#bizboard{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#deathevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#poloevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
+#rcevent{
+	background-image:url(Background/genback.png);
+	width:100%;
+	height:100%;
+	display:none;
+}
